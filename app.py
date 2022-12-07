@@ -13,7 +13,7 @@ import json
 CURR_USER_KEY = "curr_user"
 
 app = Flask(__name__)
-
+"""testing git"""
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///recipeapp_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
